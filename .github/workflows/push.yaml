@@ -19,8 +19,6 @@ env:
   DOCKER_UBI_FILE_PATH: Dockerfile.ubi
   KUBERNETES_VERSION: "1.19.0"
   KIND_VERSION: "0.17.0"
-  HELM_REGISTRY_URL: "https://stakater.github.io/stakater-charts"
-  REGISTRY: ghcr.io
 
 jobs:
   sonarqube:
